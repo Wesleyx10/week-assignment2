@@ -1,0 +1,888 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  height: 100vh;
+  background: #232732;
+}
+.every {
+  border: 30px solid #24272c;
+  box-shadow: inset 5px 5px 10px rgba(0, 0, 0, 0.5);
+  height: 1070vh;
+  border-radius: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: poppins;
+}
+.every .nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  gap: 5rem;
+  margin-top: 5rem;
+}
+.nav .bars {
+  display: none;
+}
+.nav a {
+  background-color: #24272c;
+  padding: 0.8rem 2rem 0.8rem 2rem;
+  text-decoration: none;
+  color: white;
+  border-radius: 15px;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.4);
+  font-weight: 500;
+}
+.hey {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  top: 90px;
+  color: white;
+}
+.hey img {
+  width: 500px;
+}
+.hey #h {
+  font-size: 30px;
+  position: relative;
+  bottom: 30px;
+}
+.hey #i {
+  font-size: 60px;
+  font-weight: 700;
+}
+.hey .mac {
+  font-size: 40px;
+  position: relative;
+  bottom: 10px;
+}
+.hey .mac #en {
+  color: #d32d20;
+  border-right: 4px solid #d32d20;
+  padding-right: 5px;
+}
+.hey #a {
+  font-weight: 300;
+  position: relative;
+  top: 10px;
+}
+.hey .btns {
+  display: flex;
+  gap: 3rem;
+  position: relative;
+  top: 50px;
+}
+.hey .btns #b {
+  padding: 13px 15px;
+  background-color: #24272c;
+  color: white;
+  font-family: poppins;
+  font-weight: 400;
+  border-radius: 20px;
+  font-size: 20px;
+  border: none;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.4);
+}
+.about {
+  display: flex;
+  align-items: center;
+  color: white;
+  position: relative;
+  top: 200px;
+  gap: 2rem;
+}
+.about img {
+  width: 500px;
+}
+.about .text {
+  display: flex;
+  flex-direction: column;
+  width: 500px;
+  gap: 1rem;
+}
+.about .text #a {
+  font-size: 30px;
+}
+.about .text #i {
+  font-weight: 300;
+}
+.projects {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  top: 350px;
+  gap: 3rem;
+}
+.projects .pro {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  color: white;
+  font-size: 30px;
+  position: relative;
+  left: 30px;
+}
+.projects .links {
+  display: flex;
+  gap: 12rem;
+  position: relative;
+  left: 30px;
+}
+.projects .links a {
+  color: white;
+  text-decoration: none;
+  font-weight: 500;
+  padding: 0.5rem 3rem;
+  border-radius: 15px;
+  border: none;
+  background-color: #24272c;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.4);
+}
+.projects .links #p {
+  background-color: #7733ff;
+}
+.projects .image {
+  display: flex;
+  align-items: center;
+}
+.projects .image .img {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 4rem;
+  position: relative;
+  right: 120px;
+}
+.projects .image .img .r {
+  display: flex;
+  flex-direction: column;
+  gap: 5rem;
+}
+.projects .image .dash {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: white;
+  gap: 1rem;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.4);
+  padding: 2rem;
+  border-radius: 20px;
+  position: relative;
+  left: 120px;
+}
+.projects .image .dash #re {
+  width: 400px;
+}
+.projects .image .dash #c {
+  font-size: 25px;
+}
+.projects .image .dash #a {
+  font-weight: 200;
+}
+.skills {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  color: white;
+  font-size: 30px;
+  position: relative;
+  top: 560px;
+  left: 30px;
+}
+.language {
+  display: flex;
+  flex-direction: column;
+  gap: 9rem;
+  position: relative;
+  top: 620px;
+  align-items: center;
+}
+.language a {
+  text-decoration: none;
+  font-weight: 500;
+  color: white;
+  background-color: #7733ff;
+  padding: 0.5rem 3rem;
+  border-radius: 15px;
+}
+.language .img {
+  display: flex;
+  align-items: center;
+  gap: 13rem;
+  position: relative;
+  left: 20px;
+}
+.language .img #b {
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.4);
+  padding: 5px;
+  width: 15px;
+  border-radius: 5px;
+}
+.certi {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  color: white;
+  font-size: 30px;
+  position: relative;
+  top: 780px;
+  left: 30px;
+}
+.doc {
+  display: flex;
+  align-items: center;
+  position: relative;
+  top: 58rem;
+  gap: 3rem;
+}
+.doc img {
+  width: 300px;
+}
+.doc #s {
+  transform: scale(1.5);
+}
+.exp {
+  display: flex;
+  flex-direction: column;
+  gap: 7rem;
+  align-items: center;
+  position: relative;
+  top: 69rem;
+}
+.exp .expe {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  color: white;
+  font-size: 30px;
+  position: relative;
+  left: 30px;
+  align-items: flex-end;
+}
+.exp .link {
+  display: flex;
+  gap: 10rem;
+}
+.exp .link a {
+  text-decoration: none;
+  font-weight: 500;
+  padding: 13px 59px;
+  border-radius: 21px;
+  color: white;
+  background-color: #232732;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.4);
+}
+.exp .link #e {
+  background-color: #7733ff;
+}
+.first {
+  display: flex;
+  gap: 3rem;
+  position: relative;
+  top: 80rem;
+  align-items: center;
+  position: relative;
+  right: 11.5rem;
+}
+.first .text {
+  display: flex;
+  flex-direction: column;
+  color: #5f5e5e;
+  font-weight: 200;
+  background: linear-gradient(bottom, #272c38, #1d2029);
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.4);
+  padding: 20px;
+  border-radius: 30px;
+}
+.first .text #t {
+  font-size: 20px;
+  font-weight: 600;
+}
+.first .text #g {
+  font-size: 16px;
+  font-weight: 500;
+}
+.first .text #a {
+  font-weight: 500;
+  font-size: 13px;
+}
+.first img {
+  width: 100px;
+}
+.second {
+  display: flex;
+  gap: 3rem;
+  position: relative;
+  top: 82rem;
+  align-items: center;
+  position: relative;
+  left: 12rem;
+}
+.second .text {
+  display: flex;
+  flex-direction: column;
+  color: #5f5e5e;
+  font-weight: 200;
+  background: linear-gradient(bottom, #272c38, #1d2029);
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.4);
+  padding: 20px;
+  border-radius: 30px;
+}
+.second .text #t {
+  font-size: 20px;
+  font-weight: 600;
+}
+.second .text #g {
+  font-size: 16px;
+  font-weight: 500;
+}
+.second .text #a {
+  font-weight: 500;
+  font-size: 13px;
+}
+.second img {
+  width: 100px;
+}
+.contact {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  color: white;
+  font-size: 30px;
+  position: relative;
+  top: 90rem;
+  left: 30px;
+}
+.icontext {
+  display: flex;
+  align-items: center;
+  position: relative;
+  top: 100rem;
+  gap: 7rem;
+}
+.icontext img {
+  width: 200px;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.4);
+  padding: 15px 40px;
+  border-radius: 30px;
+  padding-bottom: 0;
+}
+.icontext .form {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+.icontext .form .f {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+.icontext .form .f #n {
+  background-color: #232732;
+  padding: 10px 90px 10px 10px;
+  border: 0;
+  box-shadow: inset 1px 1px 5px rgba(0, 0, 0, 0.5);
+  border-radius: 5px;
+}
+.icontext .form .f #e {
+  background-color: #232732;
+  padding: 10px 90px 10px 10px;
+  border: 0;
+  box-shadow: inset 1px 1px 5px rgba(0, 0, 0, 0.5);
+  border-radius: 5px;
+}
+.icontext .form .f #m {
+  background-color: #232732;
+  padding: 10px 90px 90px 10px;
+  border: 0;
+  box-shadow: inset 1px 1px 5px rgba(0, 0, 0, 0.5);
+  border-radius: 5px;
+}
+.icontext .form #s {
+  background-color: #232732;
+  border: 0;
+  padding: 12px 32px;
+  color: white;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.4);
+  width: 100px;
+  border-radius: 20px;
+  font-family: poppins;
+  font-weight: 600;
+  position: relative;
+  left: 73px;
+}
+@media only screen and (max-width: 440px) {
+  * {
+    margin: 0;
+    padding: 0;
+  }
+  .every {
+    max-width: 100vw;
+    border: 15px solid #24272c;
+    border-radius: 25px;
+    overflow: hidden;
+    height: 745vh;
+  }
+  .every .nav {
+    width: 80vw;
+    flex-direction: column;
+    gap: 3rem;
+    margin-top: 6.3rem;
+  }
+  .nav a {
+    padding: 5px 10px 5px 10px;
+
+    font-weight: 500;
+  }
+  .nav .bars {
+    display: block;
+    position: absolute;
+    top: 2.5rem;
+    right: 2rem;
+    padding: 13px 15px;
+    background-color: #7733ff;
+    border-radius: 50%;
+  }
+  .nav .bars .icon {
+    font-size: 1.3rem;
+    color: white;
+    width: 20px;
+  }
+  .nav .bars .close {
+    display: none;
+  }
+  .hey {
+    width: 100vw;
+  }
+  .hey img {
+    width: 300px;
+  }
+  .hey #h {
+    font-size: 20px;
+  }
+  .hey #i {
+    font-size: 35px;
+  }
+  .hey .mac {
+    font-size: 22px;
+  }
+  .hey #a {
+    font-size: 10px;
+    width: 60vw;
+    font-weight: 220;
+  }
+  .hey .btns #b {
+    padding: 10px 12px;
+    font-size: 15px;
+  }
+  .about {
+    width: 100vw;
+    flex-direction: column;
+  }
+  .about img {
+    width: 300px;
+  }
+  .about .text {
+    width: 80vw;
+    align-items: center;
+  }
+  .about .text #i {
+    font-weight: 200;
+  }
+  .projects {
+    width: 100vw;
+    gap: 1.5rem;
+    top: 280px;
+  }
+  .projects .pro {
+    width: 80vw;
+    gap: 0.7rem;
+    left: 5px;
+    font-size: 20px;
+  }
+
+  .projects .pro img {
+    height: 6px;
+  }
+  .projects .links {
+    gap: 2rem;
+    width: 30vw;
+    left: -90px;
+  }
+  .projects .links a {
+    padding: 0.2rem 1.5rem;
+    display: flex;
+    align-items: center;
+    border-radius: 26px;
+    font-size: 10px;
+  }
+  .projects .image {
+    flex-direction: column;
+    width: 100vw;
+    position: relative;
+    bottom: 3rem;
+  }
+  .projects .image .img {
+    flex-direction: row;
+    width: 20vw;
+    gap: 2rem;
+    right: 100px;
+    top: 32rem;
+  }
+  .projects .image .img .r {
+    flex-direction: row;
+    gap: 2.7rem;
+  }
+  .projects .image .img #k {
+    width: 80px;
+  }
+  .projects .image .img #r {
+    width: 60px;
+  }
+  .projects .image .dash {
+    width: 50vw;
+    left: 1px;
+  }
+  .projects .image .dash #re {
+    width: 230px;
+  }
+  .projects .image .dash #c {
+    font-size: 20px;
+  }
+  .projects .image .dash #a {
+    font-size: 13px;
+  }
+  .projects .image .dash #i {
+    width: 28px;
+  }
+  .skills {
+    width: 80vw;
+    gap: 0.7rem;
+    left: 5px;
+    font-size: 24px;
+    top: 420px;
+  }
+  .skills #s {
+    position: relative;
+    left: 14rem;
+  }
+  .skills img {
+    height: 6px;
+  }
+  .language {
+    top: 460px;
+  }
+  .language a {
+    padding: 1rem 1.2rem;
+    border-radius: 35px;
+  }
+  .language .img {
+    width: 100vw;
+    gap: 0.5rem;
+    left: 37px;
+    bottom: 6.5rem;
+  }
+  .language .img img {
+    width: 240px;
+  }
+  .certi {
+    width: 80vw;
+    gap: 0.7rem;
+    left: 5px;
+    font-size: 20px;
+    top: 420px;
+  }
+  .certi img {
+    height: 6px;
+  }
+  .doc {
+    width: 100vw;
+    gap: 1rem;
+    top: 30rem;
+    left: 27px;
+  }
+  .doc img {
+    width: 100px;
+  }
+  .exp {
+    gap: 3.7rem;
+    top: 35.5rem;
+  }
+  .exp .expe {
+    width: 80vw;
+    gap: 0.7rem;
+    left: -10px;
+    font-size: 21px;
+    align-items: self-end;
+  }
+  .exp .expe img {
+    height: 6px;
+    width: 300px;
+  }
+  .exp .link {
+    gap: 2rem;
+  }
+  .exp .link a {
+    padding: 1rem 1.2rem;
+    border-radius: 35px;
+  }
+  .first {
+    top: 50rem;
+    width: 100vw;
+    right: -3rem;
+    gap: 1rem;
+    top: 38rem;
+  }
+  .first .text {
+    width: 50vw;
+    align-items: center;
+  }
+  .first .text #t {
+    font-size: 15px;
+  }
+  .first .text #g {
+    font-size: 12px;
+  }
+  .first .text #a {
+    font-size: 10px;
+  }
+  .first img {
+    width: 50px;
+  }
+  .second {
+    top: 50rem;
+    width: 100vw;
+    left: 3rem;
+    gap: 1rem;
+    top: 40rem;
+  }
+  .second .text {
+    width: 50vw;
+    align-items: center;
+  }
+  .second .text #t {
+    font-size: 15px;
+  }
+  .second .text #g {
+    font-size: 12px;
+  }
+  .second .text #a {
+    font-size: 10px;
+  }
+  .second img {
+    width: 50px;
+  }
+  .contact {
+    width: 80vw;
+    gap: 0.7rem;
+    left: 5px;
+    font-size: 20px;
+    top: 47rem;
+  }
+  .contact img {
+    height: 6px;
+  }
+  .icontext {
+    width: 100vw;
+    flex-direction: column;
+    top: 50rem;
+  }
+}
+@media only screen and (min-width: 500px) and (max-width: 835px) {
+  .every {
+    overflow: hidden;
+    height: 560vh;
+  }
+  .every .nav {
+    width: 80vw;
+    gap: 1.2rem;
+    position: relative;
+    right: 1.2rem;
+  }
+  .nav a {
+    padding: 0.8rem 1.5rem 0.8rem 1.5rem;
+  }
+  .hey #a {
+    font-weight: 200;
+    width: 490px;
+  }
+  .hey .btns #b {
+    padding: 10px 12px;
+    font-size: 15px;
+    font-weight: 500;
+  }
+  .about {
+    right: 2rem;
+    width: 100vw;
+    gap: 0.2rem;
+    left: 2.6rem;
+  }
+  .about img {
+    width: 350px;
+  }
+  .about .text {
+    width: 300px;
+  }
+  .about .text #a {
+    font-size: 23px;
+  }
+  .about .text #i {
+    font-size: 13px;
+    font-weight: 200;
+  }
+  .projects {
+  }
+  .projects .pro {
+    width: 73vw;
+    left: -5px;
+    bottom: 5rem;
+  }
+  .projects .links {
+    gap: 2rem;
+    left: -5px;
+    bottom: 4rem;
+  }
+  .projects .image {
+    gap: 0.2rem;
+    position: relative;
+    right: 1.8rem;
+  }
+  .projects .image .img {
+    gap: 2rem;
+    right: 20px;
+  }
+  .projects .image .img img {
+    width: 150px;
+  }
+  .projects .image .img .r {
+    gap: 3.5rem;
+  }
+  .projects .image .img .r img {
+    width: 110px;
+  }
+  .projects .image .dash {
+    left: 50px;
+    bottom: 1rem;
+  }
+  .projects .image .dash #re {
+    width: 200px;
+  }
+  .skills {
+    width: 73vw;
+    left: -5px;
+    top: 500px;
+  }
+  .skills #s {
+    position: relative;
+    left: 29rem;
+  }
+  .language {
+    top: 550px;
+  }
+  .language .img {
+    width: 80vw;
+    gap: 6rem;
+    align-items: center;
+    left: 32px;
+  }
+  .language .img img {
+    width: 280px;
+  }
+  .certi {
+    width: 73vw;
+    left: -5px;
+    top: 660px;
+  }
+  .doc {
+    width: 100vw;
+    gap: 1rem;
+    left: 6rem;
+    top: 48rem;
+  }
+  .doc img {
+    width: 180px;
+  }
+  .exp {
+    gap: 1rem;
+  }
+  .exp .expe {
+    width: 73vw;
+    align-items: normal;
+    left: -5px;
+    bottom: 10.5rem;
+  }
+  .exp .expe #e {
+    position: relative;
+    left: 24rem;
+  }
+  .exp .link {
+    gap: 2rem;
+    position: relative;
+    bottom: 5rem;
+  }
+  .first {
+    width: 50vw;
+    gap: 0.5rem;
+    right: 8rem;
+    top: 71rem;
+  }
+  .first img {
+    width: 40px;
+  }
+  .first .text #t {
+    font-size: 15px;
+  }
+  .first .text #g {
+    font-size: 14px;
+  }
+  .first .text #a {
+    font-size: 10px;
+  }
+  .second {
+    width: 50vw;
+    gap: 1.4rem;
+    left: 9rem;
+    top: 72rem;
+  }
+  .second img {
+    width: 40px;
+  }
+  .second .text #t {
+    font-size: 15px;
+  }
+  .second .text #g {
+    font-size: 14px;
+  }
+  .second .text #a {
+    font-size: 10px;
+  }
+  .contact {
+    width: 73vw;
+    left: -5px;
+    top: 77rem;
+  }
+  .icontext {
+    gap: 2rem;
+    top: 83rem;
+  }
+}
+@media only screen and (min-width: 800px) and (max-width: 836px) {
+  .every {
+    height: 480vh;
+  }
+}
+@media only screen and (max-width: 414px) {
+  .every {
+    height: 648vh;
+  }
+}
+@media only screen and (max-width: 390px) {
+  .every {
+    height: 794vh;
+  }
+}
