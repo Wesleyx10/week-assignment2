@@ -416,7 +416,7 @@ body {
   position: relative;
   left: 73px;
 }
-@media only screen and (max-width: 440px) {
+@media only screen and (max-width: 480px) {
   * {
     margin: 0;
     padding: 0;
@@ -871,18 +871,5 @@ body {
     top: 83rem;
   }
 }
-@media only screen and (min-width: 800px) and (max-width: 836px) {
-  .every {
-    height: 480vh;
-  }
-}
-@media only screen and (max-width: 414px) {
-  .every {
-    height: 648vh;
-  }
-}
-@media only screen and (max-width: 390px) {
-  .every {
-    height: 794vh;
-  }
-}
+
+
