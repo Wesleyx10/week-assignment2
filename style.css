@@ -421,6 +421,9 @@ body {
     margin: 0;
     padding: 0;
   }
+  body{
+    overflow-x: hidden;
+  }
   .every {
     max-width: 100vw;
     border: 15px solid #24272c;
