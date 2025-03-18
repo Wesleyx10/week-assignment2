@@ -9,7 +9,7 @@ body {
 .every {
   border: 30px solid #24272c;
   box-shadow: inset 5px 5px 10px rgba(0, 0, 0, 0.5);
-  height: 1070vh;
+  height: fit-content;
   border-radius: 50px;
   display: flex;
   flex-direction: column;
@@ -416,7 +416,7 @@ body {
   position: relative;
   left: 73px;
 }
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 500px) {
   * {
     margin: 0;
     padding: 0;
@@ -426,7 +426,9 @@ body {
     border: 15px solid #24272c;
     border-radius: 25px;
     overflow: hidden;
-    height: 745vh;
+    height: 100%;
+    overflow-y: scroll;
+    scroll-behavior: smooth;
   }
   .every .nav {
     width: 80vw;
@@ -441,9 +443,9 @@ body {
   }
   .nav .bars {
     display: block;
-    position: absolute;
-    top: 2.5rem;
-    right: 2rem;
+    position: relative;
+    bottom: 30rem;
+    left: 8rem;
     padding: 13px 15px;
     background-color: #7733ff;
     border-radius: 50%;
@@ -696,7 +698,9 @@ body {
 @media only screen and (min-width: 500px) and (max-width: 835px) {
   .every {
     overflow: hidden;
-    height: 560vh;
+    height: 100%;
+    overflow-y: scroll;
+    scroll-behavior: smooth;
   }
   .every .nav {
     width: 80vw;
@@ -871,5 +875,3 @@ body {
     top: 83rem;
   }
 }
-
-
