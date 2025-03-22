@@ -437,8 +437,8 @@ body {
     padding: 0;
   }
   body {
-    overflow-y: hidden;
-    width: fit-content;
+    overflow-x: hidden;
+   width: 93vw;
   }
   .nav {
     width: 100vw;
