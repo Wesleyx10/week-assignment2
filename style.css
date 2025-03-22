@@ -438,7 +438,6 @@ body {
   }
   body {
     overflow-x: hidden;
-    -webkit-overflow-scrolling: touch;
   }
   .nav {
     width: 100vw;
