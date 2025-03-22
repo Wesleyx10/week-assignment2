@@ -438,7 +438,7 @@ body {
   }
   body {
     overflow-x: hidden;
-   width: 93vw;
+    width: 93vw;
   }
   .nav {
     width: 100vw;
@@ -486,8 +486,9 @@ body {
   }
   .hey #a {
     font-size: 10px;
-    width: 60vw;
-    font-weight: 220;
+    width: 100vw;
+    font-weight: 300;
+    text-align: center;
   }
   .hey .btns {
     gap: 1rem;
@@ -522,9 +523,9 @@ body {
     right: 8px;
   }
   .projects .pro {
-    width: 80vw;
+    width: 100vw;
     gap: 0.7rem;
-    left: 5px;
+    left: rem;
     font-size: 20px;
   }
 
@@ -532,9 +533,9 @@ body {
     height: 6px;
   }
   .projects .links {
-    gap: 2rem;
-    width: 30vw;
-    left: -90px;
+    gap: 0.7rem;
+    width: 100vw;
+    left: 2.8rem;
   }
   .projects .links a {
     padding: 0.2rem 1.5rem;
@@ -551,10 +552,10 @@ body {
   }
   .projects .image .img {
     flex-direction: row;
-    width: 20vw;
+    width: 100vw;
     gap: 2rem;
-    right: 100px;
-    top: 32rem;
+    left: 3rem;
+    top: 28rem;
   }
   .projects .image .img .r {
     flex-direction: row;
@@ -567,25 +568,28 @@ body {
     width: 60px;
   }
   .projects .image .dash {
-    width: 50vw;
+    width: 100vw;
     left: 1px;
+    padding: 2rem 0;
+    margin: 0;
+    justify-content: center;
   }
   .projects .image .dash #re {
-    width: 230px;
+    width: 180px;
   }
   .projects .image .dash #c {
-    font-size: 20px;
+    font-size: 15px;
   }
   .projects .image .dash #a {
-    font-size: 13px;
+    font-size: 10px;
   }
   .projects .image .dash #i {
-    width: 28px;
+    width: 20px;
   }
   .skills {
-    width: 80vw;
+    width: 100vw;
     gap: 0.7rem;
-    left: 2.5rem;
+    left: 1.7rem;
     font-size: 24px;
     top: 360px;
   }
@@ -610,9 +614,9 @@ body {
     width: 200px;
   }
   .certi {
-    width: 80vw;
+    width: 100vw;
     gap: 0.7rem;
-    left: 2.5rem;
+    left: 1.7rem;
     font-size: 20px;
     top: 320px;
   }
@@ -623,7 +627,7 @@ body {
     width: 100vw;
     gap: 1rem;
     top: 23rem;
-    left: 2.5rem;
+    left: 2.2rem;
   }
   .doc img {
     width: 95px;
@@ -633,9 +637,9 @@ body {
     top: 27rem;
   }
   .exp .expe {
-    width: 80vw;
+    width: 100vw;
     gap: 0.7rem;
-    left: -10px;
+    right: 2rem;
     font-size: 21px;
     align-items: self-end;
   }
@@ -644,10 +648,12 @@ body {
     width: 300px;
   }
   .exp .link {
-    gap: 2rem;
+    gap: 1rem;
+    position: relative;
+    left: 0.5rem;
   }
   .exp .link a {
-    padding: 1rem 1.2rem;
+    padding: 0.5rem 0.8rem;
     border-radius: 35px;
     font-size: 15px;
   }
@@ -697,9 +703,9 @@ body {
     width: 50px;
   }
   .contact {
-    width: 80vw;
+    width: 100vw;
     gap: 0.7rem;
-    left: 2.5rem;
+    left: 1.7rem;
     font-size: 20px;
     top: 37rem;
   }
@@ -710,29 +716,30 @@ body {
     width: 100vw;
     flex-direction: column;
     top: 40rem;
-    left: 2rem;
+    left: 3.4rem;
   }
   .icontext img {
     width: 200px;
-    right: 2rem;
+    right: 3rem;
   }
   .icontext .form {
     position: relative;
-    width: 80vw;
+    width: 100vw;
     right: 2rem;
   }
   .icontext .form .f #n {
-    padding: 1.5rem 1.5rem 1.5rem 1.5rem;
+    padding: 0.9rem;
+    width: 100vw;
   }
   .icontext .form .f #e {
-    padding: 1.5rem 1.5rem 1.5rem 1.5rem;
+    padding: 0.9rem;
   }
   .icontext .form .f #m {
-    padding: 4rem 10rem 4rem 1.5rem;
+    padding: 3rem;
   }
   .icontext .form #s {
     padding: 12px 32px;
-    left: 6.2rem;
+    left: 6.3rem;
   }
 }
 @media only screen and (min-width: 500px) and (max-width: 835px) {
