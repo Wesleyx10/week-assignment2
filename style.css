@@ -502,149 +502,195 @@ body {
   .hey img {
     width: 300px;
   }
-  .hey #h{
+  .hey #h {
     font-size: 25px;
     font-weight: 400;
   }
-  .hey .mac #i{
+  .hey .mac #i {
     font-size: 30px;
   }
-  .hey .mac .eng{
+  .hey .mac .eng {
     font-size: 24px;
   }
-  .hey #a{
-font-size: 11px;
+  .hey #a {
+    font-size: 11px;
   }
-  .hey .link{
+  .hey .link {
     gap: 1.5rem;
   }
-  .hey .link a{
-    padding: 0.5rem .9rem;
+  .hey .link a {
+    padding: 0.5rem 0.9rem;
   }
-  .about{
+  .about {
     display: flex;
     flex-direction: column;
     margin-top: 3rem;
   }
-  .about img{
+  .about img {
     width: 300px;
   }
-  .about .text{
+  .about .text {
     align-items: center;
   }
-  .about .text #a{
+  .about .text #a {
     font-size: 24px;
   }
-  .about .text #i{
+  .about .text #i {
     font-size: 13px;
   }
-  .projects .pro .line{
+  .projects .pro .line {
     width: 85vw;
   }
-  .projects .links{
+  .projects .links {
     align-items: center;
     gap: 1rem;
   }
-  .projects .links a{
-padding: 0.3rem 1rem;
-font-size: 13px;
+  .projects .links a {
+    padding: 0.3rem 1rem;
+    font-size: 13px;
   }
-  .projects .image{
+  .projects .image {
     flex-direction: column-reverse;
     gap: 5rem;
   }
-  .projects .image .img{
+  .projects .image .img {
     flex-direction: row;
   }
-  .projects .image .img img{
-    width:80px;
+  .projects .image .img img {
+    width: 80px;
   }
-  .skills .line{
+  .skills .line {
     width: 85vw;
   }
-  .language{
+  .language {
     gap: 3rem;
     margin-top: 1rem;
   }
-  .language a{
+  .language a {
     padding: 0.3rem 1rem;
     font-size: 15px;
   }
-  .language .img{
+  .language .img {
     gap: 2rem;
   }
-  .language .img #round{
+  .language .img #round {
     width: 200px;
   }
-  .language .img #b{
+  .language .img #b {
     width: 15px;
   }
-  .certi{
+  .certi {
     margin-top: 1rem;
   }
-  .certi .line{
+  .certi .line {
     width: 85vw;
   }
-  .doc{
-    gap: .8rem;
+  .doc {
+    gap: 0.8rem;
     margin-top: 3rem;
   }
-  .doc img{
+  .doc img {
     width: 100px;
   }
-  .exp{
+  .exp {
     gap: 2rem;
   }
-  .exp .expe{
+  .exp .expe {
     margin-top: 5rem;
   }
-  .exp .expe .line{
+  .exp .expe .line {
     width: 85vw;
   }
-  .exp .link{
+  .exp .link {
     gap: 2rem;
   }
-  .exp .link a{
+  .exp .link a {
     padding: 0.3rem 1rem;
   }
-  .first{
+  .first {
     gap: 1rem;
     margin-top: 3rem;
   }
-  .first .text{
-    padding: .5rem;
+  .first .text {
+    padding: 0.5rem;
   }
-  .first .text #t{
+  .first .text #t {
     font-size: 15px;
   }
-  .first .text #g{
+  .first .text #g {
     font-size: 13px;
   }
-  .first .text #a{
+  .first .text #a {
     font-size: 10px;
   }
-  .second{
+  .second {
     gap: 1rem;
     margin-top: 3rem;
   }
-  .second .text{
-    padding: .5rem;
+  .second .text {
+    padding: 0.5rem;
   }
-  .second .text #t{
+  .second .text #t {
     font-size: 15px;
   }
-  .second .text #g{
+  .second .text #g {
     font-size: 13px;
   }
-  .second .text #a{
+  .second .text #a {
     font-size: 10px;
   }
-  .contact .line{
+  .contact .line {
     width: 85vw;
   }
-  .icontext{
+  .icontext {
     flex-direction: column;
     margin-top: 3rem;
     gap: 2rem;
+  }
+}
+@media only screen and (min-width: 520px) and (max-width: 840px) {
+  .nav {
+    gap: 1.5rem;
+    justify-content: center;
+  }
+  .about {
+    margin-top: 4rem;
+    gap: 1rem;
+  }
+  .about img {
+    width: 400px;
+  }
+  .projects .pro .line {
+    width: 90vw;
+  }
+  .projects .image {
+    gap: 10rem;
+  }
+  .skills .line {
+    width: 90vw;
+  }
+  .language {
+    margin-top: 2rem;
+  }
+  .language .img {
+    gap: 5rem;
+  }
+  .certi .line {
+    width: 90vw;
+  }
+  .doc img {
+    width: 180px;
+  }
+  .exp {
+    gap: 3rem;
+  }
+  .exp .expe {
+    margin-top: 7rem;
+  }
+  .exp .expe .line {
+    width: 90vw;
+  }
+  .contact .line {
+    width: 90vw;
   }
 }
