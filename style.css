@@ -22,12 +22,18 @@ body {
   justify-content: space-around;
   gap: 1rem;
 }
-.nav a {
+.nav .links {
+  display: flex;
+  align-items: center;
+  margin-top: 5rem;
+  gap: 5rem;
+}
+.nav .links a {
   text-decoration: none;
   color: var(--pri-color);
   padding: 1rem 2rem;
   background-color: var(--padding-color);
-  margin-top: 5rem;
+
   border-radius: 20px;
   box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.4);
 }
@@ -479,16 +485,38 @@ body {
     justify-content: center;
     gap: 0rem;
   }
-  .nav a {
+  .nav .links {
+    gap: 1rem;
+    border: 1.5px solid #7733ff;
+    padding: 0.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    position: fixed;
+    top: 0.5rem;
+    right: 3rem;
+    background-color: #7733ff;
+    opacity: 0;
+    transform: translateY(-90px);
+    transition: all 0.5s ease;
+    pointer-events: none;
+  }
+  .links.show {
+    opacity: 1;
+    transform: translateY(0);
+    pointer-events: auto;
+  }
+  .nav .links a {
     padding: 0.5rem 1rem;
-    margin-top: 5rem;
-    display: none;
+    margin: 0;
   }
   .nav .bars {
     display: block;
-    position: absolute;
+    position: fixed;
     top: 1.5rem;
-    right: 1.8rem;
+    right: 1rem;
   }
   .nav .bars .icon {
     font-size: 1.7rem;
